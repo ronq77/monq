@@ -1,0 +1,60 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+header {
+    background-color: #778899;
+    min-height: 100vh;
+}
+
+nav{
+    background-color: #4169E1;
+    width: 100%;
+    position: fixed;
+}
+
+/* only apply on nav tag and inside if theres an a */
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+header main {
+    padding-top: 80px;
+    text-align: center;
+}
+
+header img {
+    width: 50%;
+}
+
+
+/* note: this single line is same as for 4 lines */
+
+.about-me {
+    padding: 40px 70px;
+}
+
+.projects {
+    padding: 40px 70px;
+}
+
+.projects img {
+    width: 30%;
+    padding: 30px;
+    padding-left: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
